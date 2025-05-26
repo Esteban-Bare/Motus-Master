@@ -1,0 +1,162 @@
+body {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.game-area {
+    padding: 30px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+}
+
+.btn-primary {
+    background-color: #212529;
+    border-color: #212529;
+}
+
+.btn-primary:hover {
+    background-color: #000;
+    border-color: #000;
+}
+
+.btn-success {
+    background-color: #198754;
+    border-color: #198754;
+}
+
+.btn-success:hover {
+    background-color: #146c43;
+    border-color: #146c43;
+}
+
+.btn-outline-primary {
+    color: #212529;
+    border-color: #212529;
+}
+
+.btn-outline-primary:hover {
+    background-color: #212529;
+    color: white;
+}
+
+.btn-outline-danger {
+    color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-outline-danger:hover {
+    background-color: #dc3545;
+    color: white;
+}
+
+.form-control:focus {
+    border-color: #212529;
+    box-shadow: 0 0 0 0.25rem rgba(33, 37, 41, 0.25);
+}
+
+.motus-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #212529;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.word-display {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 2rem;
+}
+
+.word-row {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.letter-box {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: 2px solid #dee2e6;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+
+.letter-box.correct {
+    background-color: #ff1d0e;
+    color: white;
+    border-color: #ff1d0e;
+}
+
+.letter-box.misplaced {
+    background-color: #ffc107;
+    color: black;
+    border-color: #ffc107;
+}
+
+.letter-box.wrong {
+    background-color: #193387;
+    color: white;
+    border-color: #193387;
+}
+
+.letter-box.empty {
+    background-color: white;
+    color: black;
+}
+
+.letter-box.first {
+    background-color: #198754;
+    color: white;
+    border-color: #198754;
+}
+
+.game-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.difficulty-info .badge {
+    padding: 0.5rem 0.75rem;
+    border-radius: 4px;
+}
+
+.bg-difficulty-1 {
+    background-color: #20c997;
+}
+
+.bg-difficulty-2 {
+    background-color: #fd7e14;
+}
+
+.bg-difficulty-3 {
+    background-color: #dc3545;
+}
+
+.guess-form {
+    max-width: 400px;
+    margin: 0 auto 2rem;
+}
+
+.game-controls {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}

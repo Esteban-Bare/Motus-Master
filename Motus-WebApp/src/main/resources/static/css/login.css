@@ -1,0 +1,44 @@
+body {
+    background-color: #f8f9fa;
+    height: 100vh;
+}
+.login-container {
+    max-width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+.btn-primary {
+    background-color: #212529;
+    border-color: #212529;
+}
+.btn-primary:hover {
+    background-color: #000;
+    border-color: #000;
+}
+.form-label {
+    font-weight: 500;
+}
+.motus-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #212529;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.form-control:focus {
+    border-color: #212529;
+    box-shadow: 0 0 0 0.25rem rgba(33, 37, 41, 0.25);
+}
+.btn-outline-primary {
+    color: #212529;
+    border-color: #212529;
+}
+
+.btn-outline-primary:hover {
+    background-color: #212529;
+    border-color: #212529;
+    color: white;
+}
